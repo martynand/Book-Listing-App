@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundList"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/book_image"
+        style="@style/PosterStyle" />
+
+    <RelativeLayout
+        style="@style/RelativeLayoutItemStyle"
+        android:layout_toRightOf="@id/book_image">
+
+        <TextView
+            android:id="@+id/book_title"
+            style="@style/TitleTextViewStyle"
+            tools:text="title" />
+
+        <TextView
+            android:id="@+id/book_author"
+            style="@style/AuthorTextViewStyle"
+            android:layout_below="@id/book_title"
+            tools:text="author" />
+
+        <TextView
+            android:id="@+id/book_date"
+            style="@style/DateTextViewStyle"
+            android:layout_below="@id/book_author"
+            tools:text="date" />
+
+    </RelativeLayout>
+</RelativeLayout>

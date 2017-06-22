@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Layout margin of 16dp-->
+    <dimen name="margin_layout_normal">16dp</dimen>
+
+    <!-- Layout margin of 8dp-->
+    <dimen name="margin_layout_small">8dp</dimen>
+
+    <!-- ListView Divider Size-->
+    <dimen name="list_view_divider">1dp</dimen>
+
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">120dp</dimen>
+
+    <!-- Width of each list item -->
+    <dimen name="list_item_width">100dp</dimen>
+
+    <!-- One third of height of each list item -->
+    <dimen name="list_item_height_small">40dp</dimen>
+
+</resources>

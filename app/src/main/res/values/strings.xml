@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book Searcher</string>
+
+    <!-- Hint for a SearchView [CHAR LIMIT=NONE] -->
+    <string name="search">Search books</string>
+
+    <!-- Text to display in the list when there is no internet connection [CHAR LIMIT=NONE] -->
+    <string name="no_internet">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no books [CHAR LIMIT=NONE] -->
+    <string name="no_books">No books found.</string>
+
+</resources>

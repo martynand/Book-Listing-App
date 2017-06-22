@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- SearchView style. -->
+    <style name="SearchViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_layout_small</item>
+        <item name="android:iconifiedByDefault">false</item>
+    </style>
+
+    <!-- ListView style. -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@android:color/white</item>
+        <item name="android:dividerHeight">@dimen/list_view_divider</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Book poster style. -->
+    <style name="PosterStyle">
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Relative Layout Item style. -->
+    <style name="RelativeLayoutItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingLeft">@dimen/margin_layout_small</item>
+    </style>
+
+    <!-- Title TextView style. -->
+    <style name="TitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/list_item_height_small</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingRight">@dimen/margin_layout_small</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:color">@color/colorBackgroundText</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- Author TextView style. -->
+    <style name="AuthorTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/list_item_height_small</item>
+        <item name="android:paddingRight">@dimen/margin_layout_small</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:color">@color/colorBackgroundText</item>
+    </style>
+
+    <!-- Date TextView style. -->
+    <style name="DateTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/list_item_height_small</item>
+        <item name="android:paddingRight">@dimen/margin_layout_small</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:color">@color/colorBackgroundTextLight</item>
+    </style>
+
+
+</resources>
